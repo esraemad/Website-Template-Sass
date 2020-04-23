@@ -1,0 +1,74 @@
+.welcome {
+
+    .welcome__content {
+
+  
+        &--fullwidth
+        {
+            width: 100%;
+        }
+
+        &--center {
+            text-align: center;
+        }
+
+        .welcome__title {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.5;
+            color: #333;
+            
+
+        }
+
+
+        .line-center {
+            
+            &::after {
+              @include linee;
+               margin: auto;
+               margin-top: 40px;
+            }
+        }
+        
+        .line-right {
+            &::after {
+              @include linee;
+            }
+        }
+
+
+        .welcome__p {
+            margin-top: 40px;
+            font-weight: 300;
+            line-height: 1.8;
+            font-size: 19px;
+
+        }
+    }
+
+
+    &__img {
+        width: 56%;
+        height: 426px;
+        margin: auto;
+        position: relative;
+
+        img {
+            width: 100%;
+            margin: auto;
+
+        }
+
+        .mobimg {
+            position: absolute;
+            top: 110px;
+            @include slideupdlay ;
+        }
+
+    }
+
+
+}

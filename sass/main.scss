@@ -1,0 +1,42 @@
+//base
+@import 'base/base';
+@import 'base/typography';
+//vendor
+
+
+//abstract
+@import 'abstracts/variables';
+@import'abstracts/mixins';
+@import 'abstracts/functions';
+
+//layout
+
+@import 'layout/footer';
+@import 'layout/navbar';
+
+
+
+//component
+@import 'components/btns';
+@import 'components/cardadvan';
+@import 'components/feature';
+@import 'components/numbers';
+@import'components/welcome';
+@import 'components/galary';
+@import 'components/storycard';
+@import 'components/optimizesection';
+@import 'components/clintssay';
+@import 'components/centertitle';
+@import 'components/team';
+@import 'components/sponsers';
+@import 'components/statics';
+@import 'components/subnav';
+
+
+//pages
+@import 'pages/index';
+
+//themes
+
+
+

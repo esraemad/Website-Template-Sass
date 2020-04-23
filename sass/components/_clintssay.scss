@@ -1,0 +1,73 @@
+.clintssay {
+  
+    .centertitle
+    {
+        &__h3
+        {
+            color: #fff;
+        }
+    }
+
+    .clintssay__img {
+        margin-bottom: 15px;
+
+        img {
+            width: 72px;
+            height: 72px;
+            border-radius: 50%;
+
+        }
+
+    }
+
+    .clintssay__qoute {
+        color: #eee;
+        font-size: 22px;
+        font-family: crete round, serif;
+        line-height: 1.8;
+        font-style: italic;
+
+    }
+
+    .clintssay__name {
+        font-size: 13px;
+        color: #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .clintssay__span {
+        display: block;
+        font-weight: 400;
+        color: #999;
+        font-size: 14px;
+    }
+
+    .clintssay__polit {
+       
+        ul {
+          
+            margin-top: 50px;
+          }
+        
+        li {
+            background: transparent;
+            border: 1px solid #eee;
+            width: 8px;
+            display: inline-block;
+            height: 8px;
+            list-style: none;
+            margin: 10px auto;
+            border-radius: 50%;
+            margin-top: 40px;
+            
+            &.active{
+                background: #eee;
+            }
+        }
+
+    }
+
+}

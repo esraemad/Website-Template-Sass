@@ -1,0 +1,27 @@
+*
+{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+    // font-size: 62.5%;
+    perspective: 2500px;
+ 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container
+{
+    width: 1180px;
+    margin: auto;
+    display: flex;
+   
+}
+
+.link-style-none 
+{
+    text-decoration: none;
+    color: #222;
+}

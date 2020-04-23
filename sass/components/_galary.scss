@@ -1,0 +1,99 @@
+.galarybg
+{
+  
+.biggalary
+{
+
+
+.big-img
+{
+     position: relative;
+     background-color: rgba(0, 0, 0, 0.85);
+     width: 25%;
+     height: 250px;
+     overflow: hidden;
+   
+     img 
+     {
+         width: 100%;
+         transition: all ease-in-out 0.5s;
+     }
+
+     .iconhovr
+     {
+        display: none;;
+     }
+    &:hover .iconhovr
+    {
+      
+        color: #333;
+        background-color: #fff;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 10px;
+        display: inline-block;
+        margin-right: 6px;
+        border-radius: 50%;
+        padding: 12px;
+        display: inline-block;
+       
+    }
+    .hoverbox
+    {
+        background-color: #fff;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        transform: translate(0,100%);
+        transition: all ease-in-out 0.5s;
+        
+        h3 
+        {
+            color: #222;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        p 
+        {
+            color: #888;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    &:hover .hoverbox
+    {
+      
+        transform: translate(0,0);
+
+    }
+    
+    .iconhovr:hover
+    {
+        color: $maincolor;
+    }
+
+
+     &:hover img 
+     {
+         opacity: .4;
+         transition: all ease-in-out 0.5s;
+
+     }
+     &__overlay
+     {
+        position: absolute;
+        top: 40%;
+        left: 35%;
+        color: transparent;
+
+     }
+
+}
+}
+}

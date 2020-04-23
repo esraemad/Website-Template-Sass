@@ -1,0 +1,55 @@
+.statics
+{
+    
+
+    &__img
+    {
+        width: 50%;
+        margin: auto;
+        img 
+        {
+            width: 100%;
+            
+        }
+    }
+
+    &__content
+    {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        
+
+        &__p1 
+        {
+            color: #1abc9c;
+            margin: 0 0 5px;
+            font-size: 16px;
+            font-family: crete round,serif;
+            font-style: italic;
+            font-weight: 400;
+        }
+        h2 
+        {
+            font-size: 26px;
+            margin-bottom: 0;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #333;
+            margin: 0 0 30px;
+            line-height:1.5;
+            font-family: Raleway,sans-serif;
+        }
+
+        &__p2
+        {
+            font-size: 1.25rem;
+            font-weight: 300;
+            color: #555;
+            line-height: 1.8;
+            margin-top: 40px;
+        }
+        }
+    
+}

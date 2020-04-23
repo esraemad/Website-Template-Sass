@@ -1,0 +1,23 @@
+.centertitle
+{
+   &__h3
+   {
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        text-align: center;
+        color: #333;
+
+        &::after {
+            @include linee;
+            margin: auto;
+            margin-top: 40px;
+           
+
+
+        }
+    }
+   }
+

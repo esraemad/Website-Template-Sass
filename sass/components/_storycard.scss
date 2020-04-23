@@ -1,0 +1,75 @@
+
+.bigstory {
+   
+
+    .story {
+       
+
+        img {
+            width: 90%;
+            margin: auto;
+            padding: 5px;
+            margin-bottom: 30px;
+            transition: all ease-in-out 1.2s;
+            overflow: hidden;
+
+            &:hover
+            {
+                transform: scale(1.1, 1.1);
+                opacity: .5;
+            }
+
+        }
+
+        .story__title {
+            font-weight: 600;
+            font-size: 16px;
+            color: #444;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            transition: all ease-in-out .5s;
+           
+
+
+            &:hover
+            {
+                color: $maincolor;
+                
+            }
+        }
+
+        .story__calnder {
+            font-size: 13px;
+            line-height: 14px;
+            margin: 0 10px 15px 0;
+            color: #999;
+            font-family: crete round, serif;
+            font-style: italic;
+
+            .iconify {
+
+                font-size: 15px;
+                margin-right: 3px;
+                transform: rotate(200deg);
+
+              
+            }
+            &:hover
+            {
+                color: $maincolor;
+                
+            }
+
+        }
+        .story__p
+        {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.8;
+            font-family: Lato,sans-serif;
+        }
+
+       
+
+    }
+}

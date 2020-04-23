@@ -1,0 +1,80 @@
+.bignumbers
+{
+   
+    .number 
+
+    {
+        
+
+        &--blue01
+        {
+            background-color: #515875;
+        }
+        &--blue02
+        {
+            background-color: #576F9E;
+        }
+        &--blue03
+        {
+            background-color: #6697B9;
+        }
+        &--blue04
+        {
+            background-color: #88C3D8;
+        }
+
+           .iconify
+        {
+           
+            color: #fff;
+            transition: all ease-in-out 0.5s;
+            margin: 4px 11px 7px 0;
+            font-size: 56px;
+            @include rotate;
+ 
+            
+            &:hover
+            {
+              color:#ddd;
+            }
+        }
+
+      
+
+        &__num
+        {
+          font-size: 42px;
+          margin-top: 5px;
+          font-weight: bold;
+          letter-spacing: 1px;
+          margin-bottom: 20px;
+          transition: all ease-in-out 0.3s;
+          
+          &:hover
+          {
+              transform: scale(1.1);
+          }
+        }
+
+        .line
+        {
+            border-bottom: 2px solid #eee;
+            width: 33px;
+            margin: auto;
+            margin-bottom: 25px;
+   
+        }
+
+       &__h5
+        {
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+     
+    
+    }
+   
+}

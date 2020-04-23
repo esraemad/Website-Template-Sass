@@ -1,0 +1,147 @@
+
+.bigfeature {
+ 
+    &--row
+    {
+        @include displayrow;
+        display: flex;
+        justify-content: end;
+    }
+    .feature {
+
+        @include displayrow;
+        font-family: Lato, sans-serif;
+        animation: both fadein 2s;
+        transition:  all ease-in-out 0.4s;
+        overflow: hidden;
+
+        &:hover
+        {
+            transform: scale(1.1);
+            padding: 5px;
+            
+        }
+       
+        @for $i from 1 through 6 {
+            &:nth-child(#{$i}) {
+                animation-delay: #{$i+"s"};
+            }
+        }
+
+        @keyframes fadein {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+       &__photo
+       {
+           img 
+           {
+               margin: auto;
+               width: 100%;
+           }
+       }
+
+
+        &__icon {
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-bottom:50px;
+
+            &--icontop {
+                margin-top: -18px;
+            }
+
+            &--left {
+                margin-right: 20px;
+                margin-left: 50px;
+            }
+
+            &--right {
+                margin-left: 10px;
+            }
+
+            .iconify {
+                color: #fff;
+                font-size: 25px;
+                font-weight: bold;
+                text-align: center;
+                transform: rotate(200deg);
+
+                &--noborder {
+                    color: #1abc9c;
+                    font-size: 25px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                &--iconlg {
+                    font-size: 28px;
+                }
+            }
+        }
+
+        &__fa {
+
+            width: 65px;
+            height: 65px;
+            line-height: 65px;
+            background-color: #1abc9c;
+            margin: auto;
+            padding: 16px;
+            border-radius: 50%;
+
+            &--noborder {
+
+                height: 65px;
+                background-color: none;
+                padding: 0;
+                border-radius: 50%;
+            }
+
+
+        }
+
+        &__title {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0;
+            color: #333;
+
+            &--left {
+                text-align: left;
+                text-transform: uppercase;
+
+
+            }
+
+            &--right {
+                text-align: right;
+            }
+        }
+
+        &__p {
+            line-height: 1.8;
+            color: #999;
+            font-size: 14px;
+
+
+
+            &--pleft {
+                margin-left: -42px;
+                color: rgb(153, 153, 153);
+                margin: 8px 0px 0px;
+                
+            }
+
+
+        }
+
+    }
+}

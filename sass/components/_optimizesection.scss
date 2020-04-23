@@ -1,0 +1,35 @@
+.optimize
+{
+ 
+    .optimize__content
+    {
+        .optimize__title
+        {
+            font-size: 26px;
+            color: #333;
+        }
+       
+            .line-right
+            {
+                &::after {
+                    @include linee;
+                    color: #333;
+                  }
+            }
+        
+
+        .optimize__p
+        {
+            margin-top: 40px;
+            margin-bottom: 50px;
+            color: #555555;
+            line-height: 1.8;
+            font-size: 15px;
+
+        }
+
+    
+
+    }
+    
+}

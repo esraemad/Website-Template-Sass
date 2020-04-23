@@ -1,0 +1,280 @@
+/**************** START WELCOME SECTION *****************/
+.welcome {
+    display: flex;
+    flex-flow: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: Raleway;
+
+    .welcome__content {
+
+        width: 40%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #333;
+        margin: auto;
+
+    }
+}
+
+/**************** END WELCOME SECTION *****************/
+
+/**************** START CARDADVAN SECTION *****************/
+.bigcardadvan {
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    background-color: #f9f9f9;
+    margin-top: 0px;
+    margin: 60px 0;
+    padding: 60px 0;
+    overflow: hidden;
+
+    .cardadvan {
+        width: 28%;
+        font-size: 16px;
+        background-color: #f9f9f9;
+        font-family: Raleway, sans-serif;
+        cursor: pointer;
+        padding: 30px;
+
+    }
+}
+
+/**************** END CARDADVAN SECTION *****************/
+
+/**************** START FEATURE SECTION *****************/
+
+.bigfeature {
+
+    &--center {
+        margin: auto 115px;
+        margin-top: 50px;
+    }
+
+    @include displaycol;
+    width: 1180px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left:50px;
+
+
+}
+
+/**************** END FEATURE SECTION *****************/
+
+/**************** START STATICS SECTION *****************/
+.statics {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    margin-top: 60px;
+
+}
+
+/**************** END STATICS SECTION *****************/
+
+
+/**************** START NUMBERS SECTION *****************/
+.bignumbers {
+    @include specialfont;
+    @include displayrow;
+    margin-top: -3px;
+    margin-bottom: 100px;
+
+
+
+
+    .number {
+        width: 25%;
+        color: $card-pragraph-color;
+        padding: 60px;
+        height: 346px;
+        text-align: center;
+    }
+}
+
+
+/**************** END NUMBERS SECTION *****************/
+
+/**************** START GALARY SECTION *****************/
+.galarybg {
+    position: relative;
+    margin-top: 60px;
+    padding-top: 60px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+
+
+    .biggalary {
+        @include displayrow;
+        margin-top: 50px;
+    }
+}
+
+.seemore {
+    background-color: #444;
+    display: block;
+    width: 100%;
+    line-height: 1.6;
+    padding: 30px 0;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+
+    &:hover {
+        background-color: $maincolor;
+    }
+
+    .iconify {
+        font-size: 50px;
+        margin-bottom: -17px;
+        margin-left: -10px;
+    }
+
+
+
+}
+
+/**************** END GALARY SECTION *****************/
+
+/**************** START OPTIMIZATION SECTION *****************/
+
+.optimize {
+    margin-top: 10px;
+    padding: 80px 0;
+    margin-bottom: 0;
+
+    .optimize__img {
+        width: 30%;
+
+        img {
+            width: 65%;
+            margin: auto;
+        }
+    }
+
+    .optimize__content {
+        width: 70%;
+    }
+}
+
+/**************** END OPTIMIZATION SECTION *****************/
+
+/**************** START CLINTSSAYS SECTION *****************/
+.clintssay
+{
+    font-family: Raleway, sans-serif;
+    background-image: url(../imgs/clintsbkg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    
+
+    text-align: center;
+    margin: auto;
+    color: #fff;
+
+}
+
+/**************** END CLINTSSAYS SECTION *****************/
+
+/**************** START STORYCARD SECTION *****************/
+.storybg
+{
+    
+    margin-bottom: 60px ;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.bigstory {
+    display: flex;
+    font-family: Raleway, sans-serif;
+
+    .story {
+        width: 25%;
+        overflow: hidden;
+    }
+}
+
+
+/**************** END STORYCARD SECTION *****************/
+
+
+/**************** START TEAM SECTION *****************/
+.bigteam {
+    background-color: #F9F9F9;
+    margin: 60px 0;
+    padding: 80px 0 100px 0;
+   
+     
+
+    .team {
+        width: 25%;
+        background-color: #fff;
+        padding-bottom:  30px;
+        text-align: center;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+}
+
+/**************** END TEAM SECTION *****************/
+
+
+/**************** START SPONSOERS SECTION *****************/
+
+
+.bigsponsors
+{
+    .sponsimg
+    {
+        width: 16.4%;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+        padding: 50px 0;
+       
+       
+    }
+}
+/**************** END SPONSOERS SECTION *****************/
+
+.gotop
+{
+ 
+    line-height: 60px;
+    z-index: 299;
+    width: 40px;
+    height: 40px;
+    background-color: #333333;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    &:hover
+    {
+        background-color: $maincolor;
+    }
+    .iconify
+    {
+        font-size: 30px;
+       
+    }
+}
